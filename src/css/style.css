@@ -1,0 +1,39 @@
+header {
+  background-color: black; }
+  header .nav img {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px; }
+
+.nav-link {
+  color: white; }
+
+.body-style {
+  border: 1px solid lightgray;
+  margin-left: 40px;
+  margin-right: 40px; }
+
+.card img {
+  height: 60px;
+  border: 1px solid lightgray;
+  padding: 5px; }
+
+.card-text {
+  text-align: center;
+  font-size: 12px; }
+
+.btn-style {
+  border-radius: 5px;
+  margin-top: 5px; }
+
+.footer-img {
+  width: 140px;
+  height: 110px;
+  border: 2px solid greenyellow;
+  padding: 2px; }
+
+.footer-logo {
+  width: 150px; }
+
+.footer-section {
+  background-color: grey; }
