@@ -1,5 +1,6 @@
 header{
     background-color: black;
+    
 
    .nav img{
         height: 40px;
@@ -7,6 +8,14 @@ header{
         border-radius: 10px;
         
     }
+    nav a{
+        text-transform: uppercase;
+       
+    }
+}
+nav a:hover{
+    font-weight: bolder;
+    color: white;
 }
 .nav-link{
     color:white;
@@ -36,8 +45,21 @@ header{
     padding: 2px;
 }
 .footer-logo{
-    width: 150px;
+    width: 130px;
+    
 }
 .footer-section{
-    background-color: grey;
+    background-color: #d8b930;
+}
+.last-footer{
+    background-color: black;
+    height: 100px;
+    padding: 20px;
+    color: rgb(9, 223, 252);
+    text-align: center;
+}
+.nav img:hover{
+    height: 45px;
+    width: 105px;
+    transition: 0.1s;
 }

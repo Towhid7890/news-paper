@@ -4,6 +4,12 @@ header {
     height: 40px;
     width: 100px;
     border-radius: 10px; }
+  header nav a {
+    text-transform: uppercase; }
+
+nav a:hover {
+  font-weight: bolder;
+  color: white; }
 
 .nav-link {
   color: white; }
@@ -33,7 +39,19 @@ header {
   padding: 2px; }
 
 .footer-logo {
-  width: 150px; }
+  width: 130px; }
 
 .footer-section {
-  background-color: grey; }
+  background-color: #d8b930; }
+
+.last-footer {
+  background-color: black;
+  height: 100px;
+  padding: 20px;
+  color: #09dffc;
+  text-align: center; }
+
+.nav img:hover {
+  height: 45px;
+  width: 105px;
+  transition: 0.1s; }
